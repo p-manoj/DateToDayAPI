@@ -1,0 +1,22 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Awesome Day</title>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div id="root">
+        <div id="date" onchange="dateChanged()">
+            <input type="number" class="date" id="day" placeholder="day" value="01" />
+            <input type="number" class="date" id="month" placeholder="month" value="01" />
+            <input type="number" class="date" id="year" placeholder="year" value="0000" />
+        </div>
+        <div id="dayOfWeek"></div>
+    </div>
+</body>
+
+</html>

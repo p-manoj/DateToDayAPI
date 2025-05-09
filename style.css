@@ -1,0 +1,22 @@
+#date {
+    margin-left: 45%;
+    margin-top: 6%;
+}
+
+.date {
+    width: 40px;
+
+}
+
+#year {
+    width: 55px;
+}
+
+#dayOfWeek {
+    margin-left: 45%;
+    margin-top: 2%;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2a8da5;
+}
